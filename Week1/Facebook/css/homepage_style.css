@@ -2,5 +2,251 @@ body{
     text-align: center;
     width: 100%;
     margin:0 auto;
-    font-family: "lucida grande", ;
+    padding: 0px;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif ;
+    background:linear-gradient(white,rgb(188, 189, 199));
+}
+#header_part{
+    width: 100%;
+    min-width: 980px;
+    background-color:rgb(22, 50, 207);
+}
+#Headerone{
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    height:85px;
+}
+#Headerone li{
+    list-style-type:none;
+    float: left;
+    text-align:left;
+    color: white;
+}
+#Headreone #site_name{
+    margin-top:60px;
+    padding:70px;
+}
+#Headerone #site_name a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+}
+#Headerone form{
+    margin-top:15px;
+    float: right;
+}
+#Headerone form li{
+    font-size:13px;
+    margin-left: 15px;
+}
+#Headerone form li a{
+    color:rgb(157, 158, 168);
+    text-decoration: none;
+}
+#Headerone form input[type="text"]{
+    margin-top:3px;
+    margin-bottom:3px;
+    width:150px;
+    border:1px solid #08298A;
+    height:25px;
+    padding-left:3px;
+}
+#Headerone form input[type="password"]{
+    margin-top:3px;
+    margin-bottom:3px;
+    width:150px;
+    border:1px solid #08298A;
+    height:25px;
+    padding-left:3px;
+}
+#Headerone form input[type="submit"]{
+    height:25px;
+    margin-top:20px;
+    background-color:#084B8A;
+    color:white;
+    border:1px solid #08298A;
+}
+#mainpart{
+    margin:0 auto;
+    padding:0px;
+    text-align:center;
+    width:980px;
+}
+#mainpart div{
+    float:left;
+    font-family: helvetica, arial, sans-serif;
+}
+#mainpart #main1{
+    margin-top:47px;
+    width:590px;
+    text-align:left;
+}
+#mainpart #main1 img{
+    width:550px;
+    height: 205px;
+}
+#mainpart #main1 p{
+    font-size: 20px;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif ;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    color:#0e385f;
+}
+#mainpart #main2{
+    margin-top:37px;
+    width:390px;
+    text-align:left;
+}
+#mainpart #main2 h1{
+    margin:0px;
+    font-size:37px;
+    color:#2E2E2E;
+}
+#mainpart #main2 p
+{
+    font-size:18px;
+    color:#2E2E2E;
+}
+#mainpart #main2 li{
+    list-style-type:none;
+    margin-top:10px;
+}
+#mainpart #main2 li #firstname{
+    width:49%;
+}
+#mainpart #main2 li #surname{
+    margin-left: 2%;
+    width:30%;
+}
+#mainpart #main2 li input[type="text"]{
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    border:1px solid #BDBDBD;
+}
+#mainpart #main2 li input[type="password"]{
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    border:1px solid #BDBDBD;
+}
+#mainpart #main2 li select{
+    padding: 4px;
+    float:left;
+}
+#mainpart #main2 li a{
+    margin-left:10px;
+    width:150px;
+    color:#045FB4;
+    text-decoration:none;
+    font-size:11px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height:15px;
+}
+#mainpart #main2 li a:hover{
+    text-decoration:underline;
+}
+#mainpart #main2 li{
+    color:#2E2E2E;
+    font-size:18px;
+}
+#mainpart #main2 #agreementterms{
+    color:#424242;
+    font-size:11px;
+}
+#mainpart #main2 #agreementterms a{
+    display:inline;
+    margin:0px;
+}
+#mainpart #main2 li input[type="submit"]{
+    width:205px;
+    height:45px;
+    text-align:center;
+    font-size:19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#mainpart #main2 #createpage{
+    color:#424242;
+    font-size:13px;
+    font-weight:bold;
+}
+#mainpart #main2 #createpage a{
+    display:inline;
+    margin:0px;
+    font-size:13px;
+}
+#footer_part{
+    width:100%;
+    clear:both;
+    float:left;
+    margin-top:30px;
+    min-width:995px;
+    background-color:white;
+    text-align:left;
+}
+#footerone{
+    width:980px;
+    margin:0px auto;
+    padding:0px;
+    border-bottom:1px solid #E6E6E6;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    color:#848484;
+}
+#footerone a{
+    color:#365899;
+    display:inline;
+    margin-left:10px;
+    text-decoration:none;
+}
+#footerone a:hover{
+    text-decoration:underline;
+}
+#footertwo{
+    width:980px;
+    margin:0px auto;
+    padding:0px;
+    font-size:12px;
+    color:#848484;
+}
+#footertwo a{
+    color:#365899;
+    display:inline-block;
+    margin:5px;
+    margin-left:0px;
+    min-width:80px;
+    text-decoration:none;
+}
+#footertwo a:hover{
+    text-decoration:underline;
+}
+img{
+    width:980px;
+}
+#footertwo p{
+    margin-top:45px;
 }
