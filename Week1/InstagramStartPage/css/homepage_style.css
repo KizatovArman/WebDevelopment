@@ -1,0 +1,159 @@
+body{
+    background:rgb(250, 250, 250);
+}
+#left_part img{
+    height: 630px;
+    padding-top:115px;
+    float: left;
+    margin-left: 215px;
+}
+#right_part{
+    background: white;
+    border: 1px solid rgb(221, 221, 221);
+    width:260px;
+    height:525px;
+    float:left;
+    margin-top:35px;
+    padding:40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#right_part #instagram_logo_cursive{
+    height: 55px;
+    margin-left:35px;
+    margin-top:-10px;
+    margin-bottom: -5px;
+}
+#right_part #under_logo{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 18px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:rgb(160, 160, 160);
+    text-align: center;
+}
+button img{
+    height:25px;
+}
+#right_part #button1{
+    cursor: pointer;
+    height:30px;
+    width: 260px;
+    float: center;
+    text-align: center;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color:white;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    float: none;
+}
+#right_part #OR{
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+#right_part #register{
+    cursor: pointer;
+    height:30px;
+    width: 260px;
+    float: center;
+    text-align: center;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color:white;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    float: none;
+    margin-top: 7px;
+}
+.input_data{
+    margin-top: 7px;
+    padding-left:5px;
+    height: 35px;
+    width: 260px;
+    background:rgb(250,250,250);
+    border:1px solid #efefef;
+    font-size:12px;
+    border-radius: 4px;
+    
+}
+#last_input{
+    margin-bottom: 7px;
+}
+#registration a{
+    text-decoration: none;
+}
+#registration p{
+    text-decoration: none;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+#under_reg{
+    float: left;
+    margin-top:40px;
+    background: white;
+    height: 50px;
+    width: 340px;
+    margin-left: -41px;
+    border: 1px solid rgb(221, 221, 221);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#under_reg a{
+    text-decoration: none;
+}
+#link_to_markets{
+    margin-top:20px; 
+    text-align: center;
+
+}
+#link_to_markets #leftpic{
+    float: left;
+    margin-left: -30px;
+    width:120px;
+    height:40px;
+}
+#link_to_markets #rightpic{
+    float: right;
+    margin-left: -50px;
+    width:120px;
+    height:40px;
+}
+#footer{
+    float: left;
+    margin-top: 160px;
+    
+}
+#linky{
+    margin-left: 70px;
+    color:rgb(24, 24, 170);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.links{
+    margin-left: 9px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(24, 24, 170);
+}
+#footer p{
+    margin-left: 70px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e0e0e0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}

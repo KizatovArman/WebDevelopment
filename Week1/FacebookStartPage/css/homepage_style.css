@@ -3,19 +3,20 @@ body{
     width: 100%;
     margin:0 auto;
     padding: 0px;
-    font-family: "lucida grande",tahoma,verdana,arial,sans-serif ;
-    background:linear-gradient(white,rgb(188, 189, 199));
+    font-family: "lucida grande",arial,sans-serif ;
+    background:linear-gradient(white,rgb(207, 207, 224));
 }
 #header_part{
     width: 100%;
+    height: 83px;
     min-width: 980px;
-    background-color:rgb(22, 50, 207);
+    background-color:#345297;
 }
 #Headerone{
     width: 980px;
     margin: 0px auto;
     padding: 0px;
-    height:85px;
+    height: 85px;
 }
 #Headerone li{
     list-style-type:none;
@@ -23,22 +24,19 @@ body{
     text-align:left;
     color: white;
 }
-#Headreone #site_name{
-    margin-top:60px;
-    padding:70px;
+#Headerone #site_name{
+    margin-top:25px;
 }
-#Headerone #site_name a{
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 900;
+#Headerone #site_name a img{
+    width: 200px;
+    height: 50px;
 }
 #Headerone form{
     margin-top:15px;
     float: right;
 }
 #Headerone form li{
-    font-size:13px;
+    font-size:12px;
     margin-left: 15px;
 }
 #Headerone form li a{
@@ -50,7 +48,7 @@ body{
     margin-bottom:3px;
     width:150px;
     border:1px solid #08298A;
-    height:25px;
+    height:20px;
     padding-left:3px;
 }
 #Headerone form input[type="password"]{
@@ -58,9 +56,10 @@ body{
     margin-bottom:3px;
     width:150px;
     border:1px solid #08298A;
-    height:25px;
+    height:20px;
     padding-left:3px;
 }
+
 #Headerone form input[type="submit"]{
     height:25px;
     margin-top:20px;
@@ -87,13 +86,22 @@ body{
     width:550px;
     height: 205px;
 }
-#mainpart #main1 p{
-    font-size: 20px;
+#mainpart #main1 #text1{
+    font-size: 19px;
     font-family:"lucida grande",tahoma,verdana,arial,sans-serif ;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
     margin-top: 0px;
+    color:#0e385f;
+}
+#mainpart #main1 #text2{
+    font-size: 19px;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif ;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
     color:#0e385f;
 }
 #mainpart #main2{
@@ -116,11 +124,11 @@ body{
     margin-top:10px;
 }
 #mainpart #main2 li #firstname{
-    width:49%;
+    width:44.5%;
 }
 #mainpart #main2 li #surname{
-    margin-left: 2%;
-    width:30%;
+    margin-left: 1px;
+    width: 47%;
 }
 #mainpart #main2 li input[type="text"]{
     width:100%;
@@ -128,7 +136,7 @@ body{
     border-radius:5px;
     padding-left:10px;
     font-size:18px;
-    border:1px solid #BDBDBD;
+    border:1px solid rgb(189, 189, 189);
 }
 #mainpart #main2 li input[type="password"]{
     width:100%;
@@ -169,18 +177,18 @@ body{
 }
 #mainpart #main2 li input[type="submit"]{
     width:205px;
-    height:45px;
+    height:40px;
     text-align:center;
     font-size:19px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
     font-weight: bold !important;
     background: linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
     box-shadow: inset 0 1px 1px #a4e388;
     border-color: #3b6e22 #3b6e22 #2c5115;
-    border: 1px solid;
+    border: 1px solid rgb(110, 110, 110);
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
@@ -197,6 +205,24 @@ body{
     display:inline;
     margin:0px;
     font-size:13px;
+}
+#mainpart #main2 #year{
+    margin-left: 2px;
+    border: 1px solid rgb(209, 209, 209);
+    width: 60px;
+    height: 30px;
+}
+#mainpart #main2 #month{
+    margin-left: 2px;
+    border: 1px solid rgb(209, 209, 209);
+    width: 60px;
+    height: 30px;
+}
+#mainpart #main2 #day{
+    margin-left: 0px;
+    border: 1px solid rgb(209, 209, 209);
+    width: 60px;
+    height: 30px;
 }
 #footer_part{
     width:100%;
@@ -244,9 +270,9 @@ body{
 #footertwo a:hover{
     text-decoration:underline;
 }
-img{
-    width:980px;
-}
 #footertwo p{
-    margin-top:45px;
+    margin-top:18px;
+}
+#header_part img{
+   
 }
