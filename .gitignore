@@ -1,0 +1,6 @@
+.idea/
+venv/
+Include/
+Lib/
+Scripts/
+tcl/
