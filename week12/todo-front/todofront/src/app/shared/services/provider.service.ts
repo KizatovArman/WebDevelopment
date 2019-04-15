@@ -37,4 +37,5 @@ export class ProviderService extends MainService{
    deleteTaskList(id: number): Promise<any>{
      return this.delet(`http://localhost:8000/api/task_lists/${id}/`,{});
    }
+
 }

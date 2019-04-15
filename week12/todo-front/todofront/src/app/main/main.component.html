@@ -1,7 +1,7 @@
 CREATE CATEGORY:
 <div>
   <input type="text" [(ngModel)]="name" />
-  <button (click)="createCategory()">Create</button>
+  <button (click)="createTaskList()">Create</button>
 </div>
 
 <ng-container *ngIf ="!loading">
@@ -20,8 +20,9 @@ CREATE CATEGORY:
   <div class="tasklists">
     <div class="tasklists_title">TASKLISTS:</div>
     <div class="tasklists_item" *ngFor="let tl of task_lists" (click)="getTasks(tl)">
-      <div class="tasklists_id">{{tl.id}}.</div>
-      <div class="tasklists_name">{{tl.name}}</div>
+      <span><input type="text" [(ngModel)]="tl.name"></span>
+      <span style="color: red" (click)="deleteTaskList(tl)"> Удалить</span>
+      <span style="color: green" (click)="updateTaskList(tl)"> Изменить</span>
     </div>
   </div>
 </ng-container>

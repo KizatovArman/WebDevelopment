@@ -19,7 +19,7 @@ class TaskListSerializer0(serializers.Serializer):
 
 class TaskListSerializer1(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
-    name = serializers.CharField(required=True)
+    name = serializers.CharField()
 
     class Meta:
         model = TaskList
